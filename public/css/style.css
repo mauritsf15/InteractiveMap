@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    font-family: "Segoe UI", serif;
+}
+
+.container {
+    height: 100dvh;
+    width: 100dvw;
+    overflow: clip;
+    position: relative;
+}
+
+.workmap, .mapimg {
+    position: absolute;
+}
+
+.modal-wrapper {
+    position: absolute;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background-color: rgba(255,255,255,1);
+    padding: 15px;
+    border-radius: 10px;
+    outline: 1px solid gray;
+}
+
+.modal-img {
+    max-width: 100%;
+}
